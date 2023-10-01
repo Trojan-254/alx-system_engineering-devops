@@ -47,4 +47,4 @@ Bash provides several commands and techniques to manage processes, including:
 
 Understanding signals and processes in Bash is essential for writing scripts that can gracefully handle interruptions, manage background tasks, and ensure the reliability of your shell scripts.
 
-For more in-depth information and examples, consult the Bash documentation (`man bash`) and the `man` pages for individual commands and signals (`man signal`, `man kill`, etc.).
+For more in-depth information and examples, consult the Bash documentation (`man bash`) and the `man` pages for individual commands and signals (`man signal`, `man k
