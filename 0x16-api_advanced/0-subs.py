@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """reddit module"""
 import requests
-import json
+
 
 def number_of_subscribers(subreddit):
     """Gets the number of subscribers
@@ -13,8 +13,8 @@ def number_of_subscribers(subreddit):
 
     res = requests.get(url, headers=headers, allow_redirects=False)
     if res.status_code == 200:
-       data = res.json()
-       subs = data['data']['subscribers']
-       return subs
+        data = res.json()
+        subs = data['data']['subscribers']
+        return subs
     else:
-       return 0
+        return 0
